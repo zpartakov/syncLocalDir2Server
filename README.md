@@ -1,4 +1,7 @@
 # syncLocalDir2Server
+
+![logo syncLocalDir2Server](http://radeff.net/pics/sync/sync2.png)
+
 ## french
 
 un petit script bash pour synchroniser le répertoire local courant avec un serveur distant
