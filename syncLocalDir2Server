@@ -1,0 +1,14 @@
+#sync ebooks
+#!/usr/bin/bash
+# Synchronizing local ebooks directory with server by Zpartakov <zpartakov@akademia.ch>
+# required: a ssh connection
+
+#get current local working directory
+repertoire=`pwd`
+#change next line with your settings
+userAndserver=username@servername
+
+echo "syncing directories:"
+echo $repertoire
+rsync -az $repertoire/* $userAndserver:$repertoire
+echo "sync finished"
